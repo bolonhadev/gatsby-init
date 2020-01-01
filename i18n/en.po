@@ -1,0 +1,23 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Plural-Forms: nplurals = 2; plural = (n != 1);\n"
+"Language: en\n"
+"mime-version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/pages/index.js:13
+msgid "GATSBY_HI"
+msgstr "Hi people"
+
+#: src/pages/index.js:14
+msgid "GATSBY_WELCOME"
+msgstr "Welcome to your new Gatsby site."
+
+#: src/pages/index.js:15
+msgid "GATSBY_NOW_BUILD"
+msgstr "Now go build something great."
+
+#: src/pages/index.js:16
+msgid "GATSBY_GO_PAGE_2"
+msgstr "Go to page 2"
