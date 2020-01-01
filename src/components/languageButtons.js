@@ -24,12 +24,14 @@ const LanguageButtons = () => {
       <button 
         style={buttonStyle}
         onClick={ ()=>{ languagesActions.changeLanguageRequest('en') }}
+        title="./i18n/en.po.JSON"
       >
         ENG
       </button>
       <button 
         style={buttonStyle}
         onClick={ ()=>{ languagesActions.changeLanguageRequest('pt') }}
+        title="./i18n/pt.po.JSON"
       >
         PT
       </button>
