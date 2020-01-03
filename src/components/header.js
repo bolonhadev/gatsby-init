@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 import LanguageButtons from "./languageButtons"
-import StateButtons from "./stateButtons"
+import StatesButtons from "./statesButtons"
 
 const Header = ({ siteTitle }) => {
   return(
@@ -33,7 +33,7 @@ const Header = ({ siteTitle }) => {
         </Link>
       </h1>
       <LanguageButtons />
-      <StateButtons />
+      <StatesButtons />
     </div>
   </header>
 )}
