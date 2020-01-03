@@ -1,11 +1,11 @@
 export default function reducer( state = [], action){
   const actions = {
-    ACTION_NAME_I: () => {
-      state.something = 'Hi something'
+    firstStateSuccess: () => {
+      state.is ^= true
       return { ...state }
     },
-    ACTION_NAME_II: () => {
-      state = {}
+    firstStateReset: () => {
+      state.is = 1
       return state
     },
     DEFAULT: () => {

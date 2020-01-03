@@ -9,3 +9,9 @@ export function firstStateSuccess(){
     type: 'firstStateSuccess'
   }
 }
+
+export function firstStateReset(){
+  return{
+    type: 'firstStateReset'
+  }
+}
